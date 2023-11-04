@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <a href="page2.html">Перейти на вторую страницу</a>
+    <h1>Мое школьное расписание</h1>
+    <h3>Понедельник</h3>
+    <!-- Ненумерованный список -->
+    <ul>
+        <li>Первый элемент списка</li>
+        <li>Второй элемент списка</li>
+        <li>Третий элемент списка</li>
+        <li>Четвертый элемент списка</li>
+    </ul>
+    <!-- Нумерованный список -->
+    <ol>
+        <li>Первый элемент списка</li>
+        <li>Второй элемент списка</li>
+        <li>Третий элемент списка</li>
+        <li>Четвертый элемент списка</li>
+    </ol>
+
+    <table border="1">
+        <tr>
+            <th>№</th>
+            <th>Название</th>
+        </tr>
+        <tr>
+            <td><p>1</p></td>
+            <td>Почистить зубы</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Позавтракать</td>
+        </tr>
+    </table>
+
+    <!-- Работа с формами -->
+        <form>
+            <p align="center"><input type="text" name="username" placeholder="Введите ваше имя" required></p>
+            <p align="center"><input type="email" name="email" placeholder="Введите ваш email" required></p>
+            <p align="center"><input type="password" name="password" placeholder="Введите ваш пароль" required></p>
+
+            <p align="center"><label for="role">Выберите вашу роль:</label></p>
+            <p align="center"><select name="role" id="role">
+                <option value="student">Студент</option>
+                <option value="teacher">Учитель</option>
+                <option value="admin">Администратор</option>
+            </select></p>
+
+            <!-- Радиокнопки -->
+            <p align="center">Предпочтительный способ связи:</p>
+            <p align="center">
+                <label>
+                <input type="radio" name="contact" value="email" required> Электронная почта
+                </label>
+                <label>
+                    <input type="radio" name="contact" value="phone" required> Телефон
+                </label>
+            </p>
+
+            <!-- Чекбоксы -->
+            <p align="center">Выберите интересующие вас темы:</p>
+            <p align="center">
+                <label>
+                    <input type="checkbox" name="topic" value="html">HTML
+                </label>
+            </p>
+            <p align="center">
+                <label>
+                    <input type="checkbox" name="topic" value="CSS">CSS
+                </label>
+            </p>
+            <p align="center">
+                <label>
+                    <input type="checkbox" name="topic" value="javascript">JavaScript
+                </label>
+            </p>
+            <p align="center"><button type="submit">Отправить</button></p>
+        </form>
+    <p align="center">
+        <video width="620" height="440" controls autoplay loop muted>
+            <source src="er.mp4" tupe="video/mp4">
+            Ваш браузер не поддерживает тег video.
+        </video>
+    </p>
+    <p align="center">
+        <audio controls autoplay loop muted>
+            <source srs="rr.mp3" tupe="audio/mp4">
+            Ваш браузер не поддерживает тег video.
+        </audio>
+    </p>
+</body>
+</html>
